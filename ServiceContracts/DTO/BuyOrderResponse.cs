@@ -3,6 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
+using System.Runtime.Remoting;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -24,6 +25,24 @@ namespace ServiceContracts.DTO
         [Range(1, 10000, ErrorMessage = "The maximum price of stock is 10000. Minimum is 1")]
         public double Price { get; set; }
         public double TradeAmount { get; set; }
+
+        public override bool Equals(object? obj)
+        {
+            if (obj == null) return false;
+
+            if (obj is not BuyOrderResponse) return false;
+
+            BuyOrderResponse other = (BuyOrderResponse)obj;
+
+            return BuyOrderID == other.BuyOrderID &&
+                StockSymbol == other.StockSymbol &&
+                StockName == other.StockName &&
+                DateAndTimeOfOrder == other.DateAndTimeOfOrder &&
+                Quantity == other.Quantity &&
+                Price == other.Price;
+
+
+        }
     }
 
     public static class BuyOrderExtensions

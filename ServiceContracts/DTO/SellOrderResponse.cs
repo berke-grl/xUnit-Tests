@@ -26,6 +26,21 @@ namespace ServiceContracts.DTO
         [Range(1, 10000, ErrorMessage = "The maximum price of stock is 10000. Minimum is 1")]
         public double Price { get; set; }
         public double TradeAmount { get; set; }
+
+        public override bool Equals(object? obj)
+        {
+            if (obj == null) return false;
+
+            if (obj is not SellOrderResponse) return false;
+
+            SellOrderResponse other = (SellOrderResponse)obj;
+
+            return SellOrderID == other.SellOrderID &&
+                StockSymbol == other.StockSymbol &&
+                StockName == other.StockName &&
+                DateAndTimeOfOrder == other.DateAndTimeOfOrder &&
+                Quantity == other.Quantity && Price == other.Price;
+        }
     }
 
     public static class SellOrderExtension
