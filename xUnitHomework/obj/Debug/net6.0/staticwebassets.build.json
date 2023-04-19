@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "Hash": "TQQkaV170gvqjBDhmGuFbo8vEIwj76xSb7tUb8rSiXI=",
+  "Source": "xUnitHomework",
+  "BasePath": "_content/xUnitHomework",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "xUnitHomework\\wwwroot",
+      "Source": "xUnitHomework",
+      "ContentRoot": "D:\\.net projects\\xUnitHomework\\xUnitHomework\\wwwroot\\",
+      "BasePath": "_content/xUnitHomework",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "D:\\.net projects\\xUnitHomework\\xUnitHomework\\wwwroot\\Scripts\\FinnhubScript.js",
+      "SourceId": "xUnitHomework",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\.net projects\\xUnitHomework\\xUnitHomework\\wwwroot\\",
+      "BasePath": "_content/xUnitHomework",
+      "RelativePath": "Scripts/FinnhubScript.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Scripts\\FinnhubScript.js"
+    },
+    {
+      "Identity": "D:\\.net projects\\xUnitHomework\\xUnitHomework\\wwwroot\\StyleSheet.css",
+      "SourceId": "xUnitHomework",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\.net projects\\xUnitHomework\\xUnitHomework\\wwwroot\\",
+      "BasePath": "_content/xUnitHomework",
+      "RelativePath": "StyleSheet.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\StyleSheet.css"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+D:\.net projects\xUnitHomework\Services\bin\Debug\net6.0\Services.deps.json
+D:\.net projects\xUnitHomework\Services\bin\Debug\net6.0\Services.dll
+D:\.net projects\xUnitHomework\Services\bin\Debug\net6.0\Services.pdb
+D:\.net projects\xUnitHomework\Services\bin\Debug\net6.0\ServiceContracts.dll
+D:\.net projects\xUnitHomework\Services\bin\Debug\net6.0\ServiceContracts.pdb
+D:\.net projects\xUnitHomework\Services\obj\Debug\net6.0\Services.csproj.AssemblyReference.cache
+D:\.net projects\xUnitHomework\Services\obj\Debug\net6.0\Services.GeneratedMSBuildEditorConfig.editorconfig
+D:\.net projects\xUnitHomework\Services\obj\Debug\net6.0\Services.AssemblyInfoInputs.cache
+D:\.net projects\xUnitHomework\Services\obj\Debug\net6.0\Services.AssemblyInfo.cs
+D:\.net projects\xUnitHomework\Services\obj\Debug\net6.0\Services.csproj.CoreCompileInputs.cache
+D:\.net projects\xUnitHomework\Services\obj\Debug\net6.0\Services.csproj.CopyComplete
+D:\.net projects\xUnitHomework\Services\obj\Debug\net6.0\Services.dll
+D:\.net projects\xUnitHomework\Services\obj\Debug\net6.0\refint\Services.dll
+D:\.net projects\xUnitHomework\Services\obj\Debug\net6.0\Services.pdb
+D:\.net projects\xUnitHomework\Services\obj\Debug\net6.0\ref\Services.dll
+D:\.net projects\xUnitHomework\Services\bin\Debug\net6.0\Entities.dll
+D:\.net projects\xUnitHomework\Services\bin\Debug\net6.0\Entities.pdb
